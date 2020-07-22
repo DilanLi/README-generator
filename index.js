@@ -54,6 +54,16 @@ function init() {
         message: "Which kind of license would you like for this application?",
         name: "license",
         choices: ["AGPLv3", "GPLv3", "LGPLv3", "MPL 2.0", "Apache 2.0", "MIT", "Boost 1.0", "PDDL"]
+        },
+        {
+        type: "input",
+        message: "What is your GitHub user name?",
+        name: "github"
+        },
+        {
+        type: "input",
+        message: "What is your email address?",
+        name: "email"
         }
     ])
     .then(function(response){
