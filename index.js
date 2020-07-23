@@ -68,12 +68,19 @@ function init() {
     ])
     .then(function(response){
         console.log(response);
-       
-        fs.writeFile("README.md", markdown(response), function(err){
+       if (response.contributionConfirm === true){
+        fs.writeFile("README.md", markdown.generateMarkdown1(response), function(err){
             if (err){
                 return console.log(err);
             }
         })
+       } else {
+        fs.writeFile("README.md", markdown.generateMarkdown2(response), function(err){
+            if (err){
+                return console.log(err);
+            }
+        })
+       }
     })
 }
 
