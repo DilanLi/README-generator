@@ -6,7 +6,7 @@ The README generator is a command-line application that helps developer quickly 
 ## Table of Contents  
 - [Description](#description)
 - [Installation and Usage](#installation-and-usage)
-- [Video Demo of Application](!Video-Demo)
+- [Video Demo of Application](#video-demo)
 
 
 ## Installation and Usage
@@ -26,7 +26,9 @@ The README generator is a command-line application that helps developer quickly 
 
 ![Screenshot](utils/screenshot2.png)  
 
-When all questions answered, a SAMPLE.md file will appear within the same directory, holding the information you just entered:  (click below for a more evaborate video demo of the application)
+When all questions answered, a SAMPLE.md file will appear within the same directory, holding the information you just entered. Click below for a more evaborate video demo of the application.
+
+## Video Demo
 
 [![Video Demo](utils/screenshot3.png)](https://drive.google.com/file/d/1rLssVAZtF_t-fcf5bNtJq8mpsn1h3oh9/view?usp=sharing "video demo")
 
