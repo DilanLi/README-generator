@@ -17,6 +17,8 @@ ${data.description}
 - [License](#license)
 - [Questions](#questions)  
 
+![Screenshot](${data.screenshot})  
+
 ## Installation  
 ${data.installation}
 

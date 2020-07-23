@@ -25,6 +25,11 @@ function init() {
         },
         {
         type: "input",
+        message: "Please enter relative or absolute path for a screenshot",
+        name: "screenshot"
+        },
+        {
+        type: "input",
         message: "What are the steps required to install your project?",
         name: "installation"
         },
@@ -69,13 +74,13 @@ function init() {
     .then(function(response){
         console.log(response);
        if (response.contributionConfirm === true){
-        fs.writeFile("README.md", markdown.generateMarkdown1(response), function(err){
+        fs.writeFile("SAMPLE.md", markdown.generateMarkdown1(response), function(err){
             if (err){
                 return console.log(err);
             }
         })
        } else {
-        fs.writeFile("README.md", markdown.generateMarkdown2(response), function(err){
+        fs.writeFile("SAMPLE.md", markdown.generateMarkdown2(response), function(err){
             if (err){
                 return console.log(err);
             }
