@@ -1,37 +1,43 @@
-# daf
-  ![License: AGPLv3](https://img.shields.io/badge/License-AGPLv3-blue.svg)
+# README Generator
 
 ## Description
-dafds  
+The README generator is a command-line application that helps developer quickly generate a professional looking README markdown file, so that they can focus their time on improving the actual appliction.
 
-  ## Table of Contents  
+## Table of Contents  
 - [Description](#description)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [Tests](#tests)
-- [License](#license)
-- [Questions](#questions)  
+- [Installation and Usage](#installation-and-usage)
+- [Video Demo of Application](!Video-Demo)
 
-## Installation  
-dfsafds
 
-## Usage
-fafdsa
+## Installation and Usage
+- Clone this repository onto your computer
+- Open terminal within the directory of the cloned repository
+- Type  **npm i inquirer**  in the terminal. The inquirer package is required for this application
+- After the inquirer package is installed, evoke the application by typing  **node index.js**  in the command
+- You will then be asked a series of questions. Answer the questions carefully as your answers will become the content of the README file under according titles
+- When all questions are answered, a SAMPLE.md file will be created within the same directory as index.js  
 
-## Contributing
-dfafds
 
-## Tests
-fsadfsda  
+**npm i inquirer** command to install inquirer package:  
 
-## License
-This application is covered under the AGPLv3 license.
+![Screenshot](utils/screenshot1.png)  
 
-## Questions
-Please contact me for any aditional questions.  
+**node index.js** to evoke application, then answer the prompt questions accordingly:  
 
-GitHub: https://github.com/  
-Email: 
+![Screenshot](utils/screenshot2.png)  
+
+When all questions answered, a SAMPLE.md file will appear within the same directory, holding the information you just entered:  (click below for a more evaborate video demo of the application)
+
+[![Video Demo](utils/screenshot3.png)](https://drive.google.com/file/d/1rLssVAZtF_t-fcf5bNtJq8mpsn1h3oh9/view?usp=sharing "video demo")
+
+
+## Additional Notes
+- You can choose "yes" or "no" for contributing by entering  **y**  or  **n** in the command and then press enter.
+- Make sure you have the correct path to ensure the display of screenshots.
+- Change in between licenses by using the up and down arrow and then press enter.
+- You can add more personalized alteration on SAMPLE.md once it's created, such as renaming the file, adding more screenshots, deleting unnecessary headings/categories, etc.
+
+
+
 
   
