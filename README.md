@@ -35,7 +35,7 @@ When all questions answered, a SAMPLE.md file will appear within the same direct
 
 
 ## Additional Notes
-- You can choose "yes" or "no" for contributing by entering  **y**  or  **n** in the command and then press https://drive.google.com/file/d/1NSoq9YzdbfiP5sT7lZoCH94aMguV2SMm/viewenter.
+- You can choose "yes" or "no" for contributing by entering  **y**  or  **n** in the command and then press enter.
 - Make sure you have the correct path to ensure the display of screenshots.
 - Change in between licenses by using the up and down arrow and then press enter.
 - You can add more personalized alteration on SAMPLE.md once it's created, such as renaming the file, adding more screenshots, deleting unnecessary headings/categories, etc.
