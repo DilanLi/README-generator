@@ -2,7 +2,7 @@
   ![License: PDDL](https://img.shields.io/badge/License-PDDL-blue.svg)
 
 ## Description
-This is a description of the sample md file  
+Sample description  
 
   ## Table of Contents  
 - [Description](#description)
@@ -16,13 +16,13 @@ This is a description of the sample md file
 ![Screenshot](utils/screenshot1.png)  
 
 ## Installation  
-clone repository, then open terminal in the corresponding repository, enter npm i inquirer, evoke the application by entering node index.js in the terminal
+steps 1, 2, 3
 
 ## Usage
 instructions 1, 2, 3
 
 ## Contributing
-contribution guidelines
+here are some contribution guidelines
 
 ## Tests
 test 1, 2, 3  
