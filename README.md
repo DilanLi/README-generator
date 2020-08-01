@@ -31,7 +31,7 @@ When all questions answered, a SAMPLE.md file will appear within the same direct
 
 ## Video Demo
 
-[![Video Demo](utils/screenshot3.png)](https://drive.google.com/file/d/1NSoq9YzdbfiP5sT7lZoCH94aMguV2SMm/view "video demo")
+[![Video Demo](utils/screenshot3.png)](https://drive.google.com/file/d/1i_3lQVnUCoLKaV_T6EHBpNdD7zGEBqZ1/view?usp=sharing "video demo")
 
 
 ## Additional Notes
